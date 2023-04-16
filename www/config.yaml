@@ -1,0 +1,9 @@
+baseURL : "https://student.cloud.htl-leonding.ac.at/d.precup"
+languageCode : "de-at"
+title : "Medt Mc"
+theme : "papermod"
+
+params:
+    homeInfoParams:
+        Title: Herzlich willkommen zu meinem Blog!
+        Content: Hier teile ich meine Erfahrungen und Gedanken als Schüler der HTL Leonding im Bereich IT-Medientechnik. Als angehender Absolvent der Schule möchte ich meine Erlebnisse und Erkenntnisse mit euch teilen und euch einen Einblick in das Leben an der HTL geben. Ich hoffe, dass meine Beiträge euch bei eurer Entscheidung für die Wahl einer Schule oder eurem Berufsweg inspirieren können. Vielen Dank fürs Lesen!

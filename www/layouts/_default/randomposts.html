@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ .Content }}
+
+<h1 id="post-title"></h1>
+<p id="post-body"></p>
+
+<script>
+  const random_num = Math.floor(Math.random()*100); 
+
+  fetch('https://jsonplaceholder.typicode.com/posts/'+random_num)
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById("post-title").innerText = data.title; 
+    document.getElementById("post-body").innerText = data.body; 
+    console.log(data)
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+</script>
+
+
+{{ end }}
